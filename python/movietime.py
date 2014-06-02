@@ -35,13 +35,11 @@ moviename = sys.argv[1]
 
 for (name, url) in urls.items():
     print(name+":")
-    got = False
     n_line = 0
     htmldata = strip_tags(urllib.urlopen(url).read())
     lines = htmldata.split("\n")
     for line in lines:
         if moviename in line:
-            got = True
             print(line.strip())
             print(lines[n_line+2].strip())
         n_line += 1
