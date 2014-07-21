@@ -10,7 +10,8 @@ import sys
 from HTMLParser import HTMLParser
 import urllib
 
-urls = {'新竹大遠百威秀':'http://www.vscinemas.com.tw/visInternetTicketing3/visPrintShowTimes.aspx?visCinemaID=0005|HS&visMultiCinema=Y&visLang=2&ReturnURL=&visEventCode=', '新竹大遠百威秀 (Gold Class)':'http://www.vscinemas.com.tw/visInternetTicketing3/visPrintShowTimes.aspx?visCinemaID=0005|HSGC&visMultiCinema=Y&visLang=2&ReturnURL=&visEventCode=', '新竹巨城威秀':'http://www.vscinemas.com.tw/visInternetTicketing3/visPrintShowTimes.aspx?visCinemaID=0012|BC&visMultiCinema=Y&visLang=2&ReturnURL=&visEventCode='}
+urls =
+{'新竹大遠百威秀':'http://www.vscinemas.com.tw/visInternetTicketing3/visPrintShowTimes.aspx?visCinemaID=0005|HS&visMultiCinema=Y&visLang=2&ReturnURL=&visEventCode=', '新竹大遠百威秀 (Gold Class)':'http://www.vscinemas.com.tw/visInternetTicketing3/visPrintShowTimes.aspx?visCinemaID=0005|HSGC&visMultiCinema=Y&visLang=2&ReturnURL=&visEventCode=', '新竹巨城威秀':'http://www.vscinemas.com.tw/visInternetTicketing3/visPrintShowTimes.aspx?visCinemaID=0012|BC&visMultiCinema=Y&visLang=2&ReturnURL=&visEventCode='}
 
 class MLStripper(HTMLParser):
     def __init__(self):
