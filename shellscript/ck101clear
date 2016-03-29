@@ -1,3 +1,3 @@
 #!/bin/sh
 
-/bin/rm -f *.js *.css *.png *.html *.php *.htm *.gif *_* *-* pi* brand
+/bin/rm -f *.js *.html *.htm *.php *.css *.png *.gif *_* *-* *.aspx *.asp brand pixel viewreceiver p picture ads adj* beacon* *.swf p\(* gcm sdk r r\(* ads*
